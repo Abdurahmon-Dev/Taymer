@@ -4,9 +4,34 @@
 }
 .back-fone {
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    position: fixed;
 }
 .taymer-box {
     width: 100%;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:17% 0;
+}
+.time div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3em;
+    background-color: black;
+    color: aqua;
+    z-index: 5;
+    border: 1px red solid;
+}
+.time span {
+    font-size: 2em;
+    color: white;
+}
+.title {
+    z-index: 5;
 }
