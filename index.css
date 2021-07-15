@@ -17,21 +17,22 @@
     align-items: center;
     justify-content: center;
     margin:17% 0;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 .time div {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3em;
+    width: 10em;
+    height: 3em;
     background-color: black;
     color: aqua;
     z-index: 5;
     border: 1px red solid;
+    border-radius: 25px;
 }
 .time span {
     font-size: 2em;
     color: white;
-}
-.title {
-    z-index: 5;
 }
